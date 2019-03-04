@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Homeworks.Domain\Homeworks.Domain.csproj" />
+    <ProjectReference Include="..\Homeworks.DataAccess\Homeworks.DataAccess.csproj" />
+    <ProjectReference Include="..\Homeworks.DataAccess.Interface\Homeworks.DataAccess.Interface.csproj" />
+    <ProjectReference Include="..\Homeworks.BusinessLogic.Interface\Homeworks.BusinessLogic.Interface.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

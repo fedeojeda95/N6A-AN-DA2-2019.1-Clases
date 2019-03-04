@@ -1,0 +1,9 @@
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/bin/Debug/netstandard2.0/Homeworks.Domain.deps.json
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/bin/Debug/netstandard2.0/Homeworks.Domain.dll
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/bin/Debug/netstandard2.0/Homeworks.Domain.pdb
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/obj/Debug/netstandard2.0/Homeworks.Domain.csprojAssemblyReference.cache
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/obj/Debug/netstandard2.0/Homeworks.Domain.csproj.CoreCompileInputs.cache
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/obj/Debug/netstandard2.0/Homeworks.Domain.AssemblyInfoInputs.cache
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/obj/Debug/netstandard2.0/Homeworks.Domain.AssemblyInfo.cs
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/obj/Debug/netstandard2.0/Homeworks.Domain.dll
+/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.Domain/obj/Debug/netstandard2.0/Homeworks.Domain.pdb

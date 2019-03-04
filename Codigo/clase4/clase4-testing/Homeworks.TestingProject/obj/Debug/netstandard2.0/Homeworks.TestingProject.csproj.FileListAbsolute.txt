@@ -1,0 +1,9 @@
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/bin/Debug/netstandard2.0/Homeworks.TestingProject.deps.json
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/bin/Debug/netstandard2.0/Homeworks.TestingProject.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/bin/Debug/netstandard2.0/Homeworks.TestingProject.pdb
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/obj/Debug/netstandard2.0/Homeworks.TestingProject.csprojAssemblyReference.cache
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/obj/Debug/netstandard2.0/Homeworks.TestingProject.csproj.CoreCompileInputs.cache
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/obj/Debug/netstandard2.0/Homeworks.TestingProject.AssemblyInfoInputs.cache
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/obj/Debug/netstandard2.0/Homeworks.TestingProject.AssemblyInfo.cs
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/obj/Debug/netstandard2.0/Homeworks.TestingProject.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject/obj/Debug/netstandard2.0/Homeworks.TestingProject.pdb

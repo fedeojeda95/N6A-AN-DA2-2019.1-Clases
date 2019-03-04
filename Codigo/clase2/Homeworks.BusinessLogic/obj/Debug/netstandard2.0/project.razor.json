@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/clase2/Homeworks.BusinessLogic/Homeworks.BusinessLogic.csproj",
+  "TargetFramework": "netstandard2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

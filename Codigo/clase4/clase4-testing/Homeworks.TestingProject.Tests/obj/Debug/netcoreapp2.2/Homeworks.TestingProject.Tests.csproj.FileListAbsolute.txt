@@ -1,0 +1,17 @@
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/obj/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.csprojAssemblyReference.cache
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/obj/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.csproj.CoreCompileInputs.cache
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/obj/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.AssemblyInfoInputs.cache
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/obj/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.AssemblyInfo.cs
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.deps.json
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.runtimeconfig.json
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.runtimeconfig.dev.json
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.pdb
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/obj/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/obj/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.pdb
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Homeworks.TestingProject.dll
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/bin/Debug/netcoreapp2.2/Homeworks.TestingProject.pdb
+/Users/federicoojeda/Desktop/ort/da2/examples/fullExample/Homeworks.TestingProject.Tests/obj/Debug/netcoreapp2.2/Homeworks.TestingProject.Tests.csproj.CopyComplete

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/federicoojeda/Desktop/ort/da2/clasesPracticaDA2/Codigo/claseX-repositorios/Homeworks.DataAccess/Homeworks.DataAccess.csproj",
+  "TargetFramework": "netstandard2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "c484507b-ecfe-49c5-b842-ab7fe54eeb84",
+		"name": "Homeworks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all homeworks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/homeworks",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"homeworks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create homework",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "856a55c8-9d30-4eda-a276-827322b2db5c",
+						"exec": [
+							"var moment = require('moment')",
+							"pm.globals.set(\"timestamp\", moment().format(\"MM/DD/YYYY\"))"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dueDate\": \"{{timestamp}}\",\n\t\"description\": \"yyyy\",\n\t\"exercises\": [\n\t\t{\n\t\t\t\"problem\": \"yyyy\",\n\t\t\t\"score\": 9\n\t\t}\n\t]\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/homeworks",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"homeworks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get homework",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/Homeworks/fb15d804-05fb-4a48-9553-f6ef5c8f514c",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Homeworks",
+						"fb15d804-05fb-4a48-9553-f6ef5c8f514c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get exercices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/exercises",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"exercises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save admin user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"firstUser\",\n\t\"password\": \"strongPassword\",\n\t\"name\": \"First User\",\n\t\"role\": \"Admin\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Tester user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"secondUser\",\n\t\"password\": \"strongPassword\",\n\t\"name\": \"First User\",\n\t\"role\": \"Tester\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check session for Admin",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "497d5d98-f242-4970-b45c-64dbe3ac1bdd",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/check",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"secondUser\",\n\t\"password\": \"strongPassword\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check session for Tester",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "d8af395a-533c-4c9c-b68e-7ffcf28736dc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/check",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"check"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

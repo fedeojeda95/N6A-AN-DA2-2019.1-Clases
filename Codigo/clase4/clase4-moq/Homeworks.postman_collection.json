@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "c484507b-ecfe-49c5-b842-ab7fe54eeb84",
+		"name": "Homeworks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all homeworks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/homeworks",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"homeworks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create homework",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "856a55c8-9d30-4eda-a276-827322b2db5c",
+						"exec": [
+							"var moment = require('moment')",
+							"pm.globals.set(\"timestamp\", moment().format(\"MM/DD/YYYY\"))"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dueDate\": \"{{timestamp}}\",\n\t\"description\": \"a description\",\n\t\"exercises\": [\n\t\t{\n\t\t\t\"problem\": \"a big problem\",\n\t\t\t\"score\": 8\n\t\t}\n\t]\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/homeworks",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"homeworks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get homework",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/Homeworks/4f0560dc-44fc-4845-9706-d5a22aa58eb4",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Homeworks",
+						"4f0560dc-44fc-4845-9706-d5a22aa58eb4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get exercices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/exercises",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"exercises"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
